@@ -1,4 +1,4 @@
-# BharatIntern_task2
+# BharatIntern_task3
 Web Devlopment
-(task 2:Homepage of netflix)
+(task 3:Homepage of netflix)
 HTML ,CSS and JAVASCRIPT
