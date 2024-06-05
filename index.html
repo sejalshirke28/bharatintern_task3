@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Clone</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Netflix</div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">TV Shows</a></li>
+                <li><a href="#">Movies</a></li>
+                <li><a href="#">New & Popular</a></li>
+                <li><a href="#">My List</a></li>
+            </ul>
+        </nav>
+        <div class="profile-search">
+            <input type="text" placeholder="Search">
+            <img src="movie12.png" alt="Profile Icon" class="profile-icon">
+        </div>
+    </header>
+
+    <section class="banner">
+        <div class="banner-content">
+            <div class="banner-text">
+                <h1>Featured Movie</h1>
+                <p>Watch the latest blockbuster now.</p>
+                <div class="banner-buttons">
+                    <button class="play-button">Play</button>
+                    <button class="info-button">More Info</button>
+                </div>
+            </div>
+            <img src="movie15.png" alt="Featured Movie" class="banner-image">
+        </div>
+    </section>
+
+    <section class="thumbnails">
+        <h2>Trending Now</h2>
+        <div class="thumbnail-row">
+            <div class="thumbnail"><img src="movie1.png" alt="Movie 1"></div>
+            <div class="thumbnail"><img src="movie2.png" alt="Movie 2"></div>
+            <div class="thumbnail"><img src="movie3.png" alt="Movie 3"></div>
+            <div class="thumbnail"><img src="movie4.png" alt="Movie 4"></div>
+            <div class="thumbnail"><img src="movie5.png" alt="Movie 5"></div>
+        </div>
+    </section>
+
+    <section class="thumbnails">
+        <h2>Top Picks for You</h2>
+        <div class="thumbnail-row">
+            <div class="thumbnail"><img src="movie6.png" alt="Movie 6"></div>
+            <div class="thumbnail"><img src="movie7.png" alt="Movie 7"></div>
+            <div class="thumbnail"><img src="movie8.png" alt="Movie 8"></div>
+            <div class="thumbnail"><img src="movie9.png" alt="Movie 9"></div>
+            <div class="thumbnail"><img src="movie10.png" alt="Movie 10"></div>
+        </div>
+    </section>
+
+    <section class="thumbnails">
+        <h2>New Releases</h2>
+        <div class="thumbnail-row">
+            <div class="thumbnail"><img src="movie11.png" alt="Movie 11"></div>
+            <div class="thumbnail"><img src="movie12.png" alt="Movie 12"></div>
+            <div class="thumbnail"><img src="movie13.png" alt="Movie 13"></div>
+            <div class="thumbnail"><img src="movie14.png" alt="Movie 14"></div>
+            <div class="thumbnail"><img src="movie15.png" alt="Movie 15"></div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-links">
+            <a href="#">Audio and Subtitles</a>
+            <a href="#">Help Center</a>
+            <a href="#">Gift Cards</a>
+            <a href="#">Media Center</a>
+            <a href="#">Investor Relations</a>
+            <a href="#">Jobs</a>
+        </div>
+        <div class="footer-info">
+            <p>netflix</p>
+        </div>
+    </footer>
+
+    <div class="modal" id="info-modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h2>Movie Title</h2>
+            <p>Detailed information about the selected movie or show.</p>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
